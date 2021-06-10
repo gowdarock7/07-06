@@ -45,21 +45,6 @@ body {
   overflow: hidden;
 }
 
-/* line 23, ../sass/_global.scss */
-.nav-mobile {
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 50px;
-  position: fixed;
-  background: #191919;
-  z-index: 999;
-}
-/* line 30, ../sass/_global.scss */
-.nav-mobile .nav-title a {
-  color: #f2f2f2;
-}
-
 /* line 35, ../sass/_global.scss */
 .mobile {
   width: 100%;
@@ -205,40 +190,19 @@ body {
   background: #f2f2f2;
 }
 
-/* line 164, ../sass/_global.scss */
-.nav-desktop {
-  width: 100%;
-  height: 65px;
-  background: #191919;
-  align-items: center;
-  position: fixed;
-  z-index: 999;
-  justify-content: space-between;
-}
-/* line 172, ../sass/_global.scss */
-.nav-desktop .nav-title a {
-  transition: 0.2s;
-  color: #f2f2f2;
-}
-/* line 175, ../sass/_global.scss */
-.nav-desktop .nav-title a:hover {
-  color: #ef3e3a;
-}
-/* line 181, ../sass/_global.scss */
-.nav-desktop .nav-btn a button {
-  border-radius: 25px;
-  color: #000000;
-  background: #f2f2f2;
-  transition: 0.2s;
-}
-/* line 186, ../sass/_global.scss */
-.nav-desktop .nav-btn a button:hover {
-  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.9));
-  -webkit-filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.9));
-  -moz-filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.9));
-  color: #f2f2f2;
-  background: #ef3e3a;
-}
+
+
+
+
+
+
+
+  
+
+        
+
+
+
 
 /* line 194, ../sass/_global.scss */
 .desktop {
@@ -547,18 +511,7 @@ body {
     padding-bottom: 0.5em;
   }
 
-  /* line 16, ../sass/style.scss */
-  .nav-mobile {
-    display: flex;
-    flex-flow: wrap row;
-  }
-  /* line 19, ../sass/style.scss */
-  .nav-mobile .nav-title a {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.15em;
-    font-weight: 700;
-  }
-
+  
   /* line 25, ../sass/style.scss */
   .landing-container {
     background: url(https://netflixparty.s3.amazonaws.com/img/land/land-bg.svg) no-repeat -11em 0em;
@@ -767,18 +720,7 @@ body {
     padding-bottom: 0.6em;
   }
 
-  /* line 184, ../sass/style.scss */
-  .nav-mobile {
-    display: flex;
-    flex-flow: wrap row;
-  }
-  /* line 187, ../sass/style.scss */
-  .nav-mobile .nav-title a {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.2em;
-    font-weight: 700;
-  }
-
+  
   /* line 193, ../sass/style.scss */
   .landing-container {
     background: url(https://netflixparty.s3.amazonaws.com/img/land/land-bg.svg) no-repeat -15em -4em;
@@ -986,33 +928,7 @@ body {
     margin-bottom: 0.5em;
   }
 
-  /* line 351, ../sass/style.scss */
-  .nav-desktop {
-    display: flex;
-    flex-flow: wrap row;
-  }
-  /* line 353, ../sass/style.scss */
-  .nav-desktop .nav-title {
-    padding-left: 6vw;
-  }
-  /* line 355, ../sass/style.scss */
-  .nav-desktop .nav-title a {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.3em;
-    font-weight: 700;
-  }
-  /* line 359, ../sass/style.scss */
-  .nav-desktop .nav-btn {
-    padding-right: 6vw;
-  }
-  /* line 361, ../sass/style.scss */
-  .nav-desktop .nav-btn a button {
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.75em;
-    font-weight: 600;
-    padding: 0.8em 2em;
-  }
-
+  
   /* line 368, ../sass/style.scss */
   .landing-container {
     background: url(https://netflixparty.s3.amazonaws.com/img/land/land-bg.svg) no-repeat 21vw 0em;
@@ -1330,33 +1246,6 @@ body {
     margin-bottom: 0.5em;
   }
 
-  /* line 599, ../sass/style.scss */
-  .nav-desktop {
-    display: flex;
-    flex-flow: wrap row;
-  }
-  /* line 601, ../sass/style.scss */
-  .nav-desktop .nav-title {
-    padding-left: 6vw;
-  }
-  /* line 603, ../sass/style.scss */
-  .nav-desktop .nav-title a {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.4em;
-    font-weight: 700;
-  }
-  /* line 607, ../sass/style.scss */
-  .nav-desktop .nav-btn {
-    padding-right: 6vw;
-  }
-  /* line 609, ../sass/style.scss */
-  .nav-desktop .nav-btn a button {
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.8em;
-    font-weight: 600;
-    padding: 0.8em 2em;
-  }
-
   /* line 616, ../sass/style.scss */
   .landing-container {
     background: url(https://netflixparty.s3.amazonaws.com/img/land/land-bg.svg) no-repeat 26vw 4vh;
@@ -1672,33 +1561,6 @@ body {
     font-weight: 700;
     line-height: 1.3em;
     margin-bottom: 0.35em;
-  }
-
-  /* line 847, ../sass/style.scss */
-  .nav-desktop {
-    display: flex;
-    flex-flow: wrap row;
-  }
-  /* line 849, ../sass/style.scss */
-  .nav-desktop .nav-title {
-    padding-left: 6vw;
-  }
-  /* line 851, ../sass/style.scss */
-  .nav-desktop .nav-title a {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.55em;
-    font-weight: 700;
-  }
-  /* line 855, ../sass/style.scss */
-  .nav-desktop .nav-btn {
-    padding-right: 6vw;
-  }
-  /* line 857, ../sass/style.scss */
-  .nav-desktop .nav-btn a button {
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.85em;
-    font-weight: 600;
-    padding: 0.8em 2em;
   }
 
   /* line 864, ../sass/style.scss */
@@ -2026,36 +1888,6 @@ body {
     line-height: 1.3em;
     margin-bottom: 0.5em;
     padding: 0em;
-  }
-
-  /* line 1100, ../sass/style.scss */
-  .nav-desktop {
-    display: flex;
-    flex-flow: wrap row;
-    width: 100%;
-    height: 80px;
-  }
-  /* line 1103, ../sass/style.scss */
-  .nav-desktop .nav-title {
-    padding-left: 8vw;
-  }
-  /* line 1105, ../sass/style.scss */
-  .nav-desktop .nav-title a {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.55em;
-    font-weight: 700;
-  }
-  /* line 1109, ../sass/style.scss */
-  .nav-desktop .nav-btn {
-    padding-right: 8vw;
-  }
-  /* line 1111, ../sass/style.scss */
-  .nav-desktop .nav-btn a button {
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.9em;
-    font-weight: 600;
-    border-radius: 25px;
-    padding: 0.8em 2em;
   }
 
   /* line 1119, ../sass/style.scss */
